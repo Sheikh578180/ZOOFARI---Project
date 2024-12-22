@@ -1,0 +1,5 @@
+.header-bg {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/pexels-photo-247376.jpeg) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
