@@ -1,3 +1,4 @@
+<!-- filepath: /C:/Users/pc/Desktop/code/zoo-website-main/HTML/buyaticket.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy a Ticket - Zoofari</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/ticket.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container my-5">
@@ -23,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <input type="email" class="form-control" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </div>
             <div class="form-group">
                 <label for="phone">Phone</label>
@@ -40,7 +41,7 @@
             </div>
             <div class="form-group">
                 <label for="quantity">Quantity</label>
-                <input type="number" class="form-control" id="quantity" placeholder="Quantity" min="1" required>
+                <input type="number" class="form-control" id="quantity" placeholder="Quantity" min="1" max="20" required>
             </div>
             <button type="submit" class="btn btn-success btn-block">Buy Ticket</button>
         </form>
